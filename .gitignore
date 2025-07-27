@@ -5,6 +5,14 @@
 # Python cache
 /Backend/__pycache__/
 /Backend/.pytest_cache/
+# Virtual environment
+Backend/venv/
+
+# Python cache
+Backend/__pycache__/
+
+# Keras models (optional if these are generated artifacts)
+Backend/models/*.keras
 
 # --- IMPORTANT: Rule to ignore models ---
 /Backend/models/*.keras
