@@ -1,3 +1,5 @@
+import './NavBar.css';
+
 function handleClick() {
   // This function scrolls to the element with id="Enhance"
   const enhanceSection = document.getElementById('Enhance');
@@ -37,7 +39,7 @@ export default function Hero() {
         <div className="w-full flex justify-center mt-12">
           <button 
             className="rounded-full px-12 py-4 border-2 transition-all bg-gradient-to-r from-stone-100 via-stone-400 to-stone-500 font-bold hover:bg-gradient-to-r hover:from-stone-500 hover:via-stone-400 hover:to-black hover:text-white duration-300 hover:scale-105" 
-            onClick={handleClick}
+            onClick={handleClick} 
           >
             ENHANCE
           </button>

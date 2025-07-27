@@ -1,5 +1,6 @@
 import React, { useState, useRef } from 'react';
 
+
 // The component is named Enhance to match the file name and usage in App.jsx
 const Enhance = () => {
   const [image, setImage] = useState({

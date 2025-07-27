@@ -44,7 +44,7 @@ export default function Demo() {
         <h1 className="text-6xl font-bold mb-8">Demo</h1>
 
         <p className="text-xl font-semibold text-stone-800 max-w-2xl mb-12">
-          See how our AI model enhances noisy X-ray images, making them far clearer and easier to analyze.
+          A clear depiction of how our AI model enhances noisy X-ray images, making them far clearer and easier to analyze.
         </p>
 
         {/* Use a flex container for the image pairs */}

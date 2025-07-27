@@ -18,10 +18,10 @@ export default function NavBar() {
 
       {/* Links Section */}
       <div className="flex items-center space-x-2 md:space-x-6">
-        <a className="text-md font-light text-gray-700 transition-all duration-400 hover:bg-black rounded-full px-4 py-2 hover:text-white text-xl" href="#home">Home</a>
-        <a className="text-md font-light text-gray-700 transition-all duration-400 hover:bg-black rounded-full px-4 py-2 hover:text-white text-xl" href="#demo">Demo</a>
-        <a className="text-md font-light text-gray-700 transition-all duration-400 hover:bg-black rounded-full px-4 py-2 hover:text-white text-xl" href="#about">About</a>
-        <a className="text-md font-light text-gray-700 transition-all duration-400 hover:bg-black rounded-full px-4 py-2 hover:text-white text-xl" href="#suggestions">Suggestions</a>
+        <a className="text-md font-light text-gray-700 transition-all duration-400 hover:bg-black rounded-full px-4 py-2 hover:text-white text-xl" id="logo" href="#home">Home</a>
+        <a className="text-md font-light text-gray-700 transition-all duration-400 hover:bg-black rounded-full px-4 py-2 hover:text-white text-xl" id="logo"href="#demo">Demo</a>
+        <a className="text-md font-light text-gray-700 transition-all duration-400 hover:bg-black rounded-full px-4 py-2 hover:text-white text-xl" id="logo"href="#about">About</a>
+        <a className="text-md font-light text-gray-700 transition-all duration-400 hover:bg-black rounded-full px-4 py-2 hover:text-white text-xl" id="logo"href="#suggestions">Suggestions</a>
       </div>
     </div>
   );
