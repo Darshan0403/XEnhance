@@ -17,7 +17,7 @@ const Enhance = () => {
   
   const fileInputRef = useRef(null);
   // Ensure this URL matches your running Python backend
-  const API_URL = 'http://localhost:5000/api/denoise';
+  const API_URL = 'http://localhost:8000/api/denoise';
 
   // Handle file selection
   const handleFileSelection = (e) => {
